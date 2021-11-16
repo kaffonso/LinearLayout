@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="383dp"
+        android:layout_height="167dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5mm"
+        android:layout_marginBottom="5mm"
+        android:layout_weight="2"
+        tools:srcCompat="@mipmap/mindelo" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Mindelo"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8mm"
+        android:layout_marginLeft="2mm"
+        android:layout_marginRight="2mm"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:onClick="irRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ir para ribeira da brava"
+        android:layout_marginBottom="8mm"
+        android:layout_marginLeft="2mm"
+        android:layout_marginRight="2mm"/>
+
+</LinearLayout>

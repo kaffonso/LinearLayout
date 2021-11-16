@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MaisSobreRB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="Ribeira Brava is a city[2] on the island of São Nicolau, Cape Verde. It is the seat of the Ribeira Brava Municipality. Its population was 1,936 at the 2010 census.[1] The town is situated in the valley of the river Ribeira Brava, east of the main mountain range of the island. The name of the river (and the town) is Portuguese for  referring to the violent behaviour of the river during rains. The city has a colonial look with Portuguese style buildings, charming parks and gardens, small winding streets, and steep hills." />
+    </ScrollView>
+</LinearLayout>
